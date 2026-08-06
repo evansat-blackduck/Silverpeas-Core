@@ -41,7 +41,7 @@ jobs:
 
         ### FIX PR: Uncomment below to enable
         polaris_fixpr_enabled: true
-        github_token: ${{ secrets.GITHUB_TOKEN }} # Mandatory when polaris_fixpr_enabled is set to 'true'
+        # github_token: ${{ secrets.GITHUB_TOKEN }} # Mandatory when polaris_fixpr_enabled is set to 'true'
 
         ### Github Issues
         # polaris_externalIssues_create: true
